@@ -1,7 +1,7 @@
 from collections import Counter
 
 
-# Time complexity O(n)
+# Time complexity O(nlogn)
 # Space complexity O(n)
 def maxFrequencyElements(nums):
     counter = Counter(nums).most_common()
