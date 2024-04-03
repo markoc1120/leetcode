@@ -19,7 +19,7 @@ def numSubarraysWithSum(nums, goal):
 
 # Time complexity O(1)
 # Space complexity O(n)
-def numSubarraysWithSum(nums, goal):
+def _numSubarraysWithSum(nums, goal):
     prefix_zeros = 0
     left = curr = ans = 0
     for right, num in enumerate(nums):
